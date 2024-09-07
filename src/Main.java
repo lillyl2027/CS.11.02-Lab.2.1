@@ -18,14 +18,13 @@ public class Main {
         String afternoonGreetingResult = afternoonGreeting("Bob");
         System.out.println(afternoonGreetingResult);
         String tripleResult = triple("oohbaby");
-        System.out.println(tripleResult);
+        System.out.println("Triple of oohbaby: " + tripleResult);
         double halfResult = half(6);
         System.out.println("Half of 6: " + halfResult);
         int roundPositiveValueToNearestIntegerResult = roundPositiveValueToNearestInteger(8.5);
         System.out.println("8.5 rounded to the nearest integer result: " + roundPositiveValueToNearestIntegerResult);
         int roundNegativeValueToNearestIntegerResult = roundNegativeValueToNearestInteger(-8.5);
         System.out.println("-8.5 rounded to the nearest integer result: " + roundNegativeValueToNearestIntegerResult);
-
 
 
     }
